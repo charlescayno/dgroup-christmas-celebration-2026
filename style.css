@@ -68,6 +68,7 @@ section{padding:80px 0 0}
 .steps li::before{content:counter(s);grid-row:span 2;width:48px;height:48px;border-radius:50%;background:var(--primary);color:var(--on-dark);display:grid;place-content:center;font:900 var(--step-1)/1 var(--display)}
 .steps b{font-family:var(--display);font-size:var(--step-1);line-height:1.1}
 .steps span{grid-column:2}
+.steps em{display:block;font-style:normal;font-weight:700;color:var(--primary);margin-bottom:4px}
 
 footer{background:var(--ink);color:var(--on-dark);padding:32px 0;text-align:center;font-weight:700}
 .verses{background:var(--deep);color:var(--on-dark);margin-top:80px;padding:80px 0}
