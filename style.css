@@ -99,3 +99,6 @@ cite{font-style:normal;font-family:var(--hand);font-size:var(--step-1);color:var
 .nav{position:sticky;top:0;z-index:10;display:flex;justify-content:center;gap:8px;padding:8px 16px;background:var(--paper);border-bottom:2px solid var(--ink)}
 .nav a{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 16px;border-radius:999px;color:var(--ink);font-weight:700;text-decoration:none}
 .nav a:hover{background:var(--shape)}
+
+.seelink{display:inline-flex;align-items:center;min-height:48px;margin-left:40px;font-weight:700;color:var(--primary);text-decoration:underline;text-underline-offset:4px}
+#gift{scroll-margin-top:72px}
