@@ -102,3 +102,5 @@ cite{font-style:normal;font-family:var(--hand);font-size:var(--step-1);color:var
 
 .seelink{display:inline-flex;align-items:center;min-height:48px;margin-left:40px;font-weight:700;color:var(--primary);text-decoration:underline;text-underline-offset:4px}
 #gift{scroll-margin-top:72px}
+
+.fits-title{margin:48px 0 0}
