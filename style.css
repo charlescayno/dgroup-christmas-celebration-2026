@@ -31,7 +31,7 @@ h3{font-size:var(--step-1);margin-bottom:16px}
 .ontime{display:inline-block;margin:0 0 32px;padding:16px 24px;background:var(--paper);color:var(--primary);border-radius:var(--r3);font:900 var(--step-1)/1.2 var(--display);transform:rotate(-1deg)}
 .where{display:grid;gap:8px;margin-bottom:32px;max-width:32em;border-left:4px solid var(--paper);padding-left:16px;justify-items:start}
 .where b{font:700 .75rem var(--font);letter-spacing:.25em;text-transform:uppercase}
-.where span{font:400 var(--step-0)/1.4 var(--font);margin-bottom:8px}
+.where span{font:900 var(--step-1)/1.1 var(--display);margin-bottom:8px}
 .sub{font-size:var(--step-1);line-height:1.3;max-width:20em;margin-bottom:8px}
 .note{font-family:var(--hand);font-size:var(--step-1);color:var(--paper);margin-bottom:32px;transform:rotate(-2deg);transform-origin:left}
 .orb{position:absolute;border-radius:50%}
