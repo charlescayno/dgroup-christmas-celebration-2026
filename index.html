@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>bible decoration · dgroup</title>
+<meta name="description" content="D-Group bible decoration night: what to bring and the program.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Figtree:wght@400;700&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <span class="orb orb-1" aria-hidden="true"></span>
+  <span class="orb orb-2" aria-hidden="true"></span>
+  <div class="wrap">
+    <h1>bible<br><span class="hl">decoration</span></h1>
+    <p class="sub">A D-Group night to make our Bibles ours, together.</p>
+    <p class="note">bring your Bible, we'll bring the fun</p>
+    <a class="btn" href="#bring">what to bring</a>
+  </div>
+</header>
+
+<main>
+  <section id="bring" class="wrap">
+    <h2>things to <span class="hl">bring</span></h2>
+    <p class="hint">Tap to tick off what you've packed. It stays saved on your phone.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>the basics</h3>
+        <ul class="checks">
+          <li><label><input type="checkbox" data-k="bible"><span>Your physical Bible</span></label></li>
+          <li><label><input type="checkbox" data-k="pens"><span>Highlighter and pens</span></label></li>
+          <li><label><input type="checkbox" data-k="journal"><span>Notebook / journal</span></label></li>
+        </ul>
+      </div>
+
+      <div class="card card-primary">
+        <h3>to decorate with</h3>
+        <p class="small">Anything we could use to decorate our Bibles:</p>
+        <ul class="checks">
+          <li><label><input type="checkbox" data-k="cloth"><span>Cute cloths</span></label></li>
+          <li><label><input type="checkbox" data-k="beads"><span>Beads</span></label></li>
+          <li><label><input type="checkbox" data-k="glue"><span>Glue gun / glue</span></label></li>
+          <li><label><input type="checkbox" data-k="paper"><span>Colored papers</span></label></li>
+          <li><label><input type="checkbox" data-k="scissors"><span>Scissors</span></label></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="program" class="wrap">
+    <h2>the <span class="hl">program</span></h2>
+    <ol class="steps">
+      <li><b>Praise and worship</b><span>1 song</span></li>
+      <li><b>Unite topic</b><span>Opening discussion together</span></li>
+      <li><b>Eat</b><span>Share a meal</span></li>
+      <li><b>Bible decoration</b><span>The main event</span></li>
+      <li><b>Encouragements</b><span>Breakout groups</span></li>
+      <li><b>Gift giving</b><span>Bless one another</span></li>
+      <li><b>Vision casting</b><span>Where we're headed</span></li>
+    </ol>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap"><p>Made with love for our D-Group.</p></div>
+</footer>
+
+<script>
+  document.querySelectorAll('.checks input').forEach(function (box) {
+    var key = 'bibledeco-' + box.dataset.k;
+    box.checked = localStorage.getItem(key) === '1';
+    box.addEventListener('change', function () {
+      localStorage.setItem(key, box.checked ? '1' : '0');
+    });
+  });
+</script>
+</body>
+</html>
