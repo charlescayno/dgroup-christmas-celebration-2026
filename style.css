@@ -28,6 +28,7 @@ h3{font-size:var(--step-1);margin-bottom:16px}
 .when div{display:grid;gap:8px;border-left:4px solid var(--paper);padding-left:16px}
 .when b{font:700 .75rem var(--font);letter-spacing:.25em;text-transform:uppercase}
 .when span{font:900 var(--step-1)/1.1 var(--display)}
+.ontime{display:inline-block;margin:0 0 32px;padding:16px 24px;background:var(--paper);color:var(--primary);border-radius:var(--r3);font:900 var(--step-1)/1.2 var(--display);transform:rotate(-1deg)}
 .where{display:grid;gap:8px;margin-bottom:32px;max-width:32em;border-left:4px solid var(--paper);padding-left:16px;justify-items:start}
 .where b{font:700 .75rem var(--font);letter-spacing:.25em;text-transform:uppercase}
 .where span{font:400 var(--step-0)/1.4 var(--font);margin-bottom:8px}
